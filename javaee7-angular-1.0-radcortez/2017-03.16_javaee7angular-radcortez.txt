@@ -1,0 +1,44 @@
+
+2017-03.16_javaee7-angular-1.0-radcortez
+https://github.com/radcortez/javaee7-angular/releases/tag/1.0
+
+In the meanwhile I have updated the original code with the post about Manage Javascript dependencies. 
+Please, download the original source of this post from the release 1.0. 
+You can also clone the repo, and checkout the tag from release 1.0 with the following command: git checkout 1.0
+
+
+2017-03.14
+Java EE 7 with Angular JS – Part 1
+http://www.radcortez.com/java-ee-7-with-angular-js-part-1/
+
+Building a Simple App Using Java EE 7 with AngularJS: Part Two – CRUD, REST, Validations
+https://www.voxxed.com/blog/2015/03/building-a-simple-app-using-java-ee-7-with-angularjs-part-two-crud-rest-validations/
+
+
+cat /home/wildfly/wildfly.txt
+service wildfly status
+ 
+http://localhost:8080/javaee7-angular/
+http://192.168.56.101:28080/javaee7-angular-radcortez/
+http://192.168.56.101:28080/javaee7-angular-1.0/
+http://192.168.56.101:28080/javaee7-angular-1.0/index.html
+u=alex
+p=alex.alex1
+http://192.168.56.101:28080/javaee7-angular-1.0/resources/persons
+
+
+Javascript Package Management – NPM – Bower – Grunt
+http://www.radcortez.com/javascript-package-management-npm-bower-grunt/
+
+new features on Java EE 7: 
+now you can run sql in a standard way by using the properties 
+javax.persistence.schema-generation.* and it also binds you to a default datasource 
+if you don’t provide one. 
+So for this case, it’s going to use the internal Wildfly H2 database for our application.
+
+https://blogs.oracle.com/arungupta/entry/default_datasource_in_java_ee
+https://www.linode.com/docs/applications/development/java-development-wildfly-centos-7
+
+
+Script to install JBoss Wildfly 10.x as service in Linux
+https://gist.github.com/sukharevd/6087988
